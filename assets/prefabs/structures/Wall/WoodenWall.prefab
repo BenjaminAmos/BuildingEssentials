@@ -1,0 +1,28 @@
+{
+  "StructureTemplate" : {
+    "type": "BuildingEssentials:Window",
+    "front": "FRONT"
+  },
+
+  "SpawnBlockRegions": {
+    "regionsToFill": [
+      { "blockType": "core:Plank", "region": { "min": [0, 1, 0], "size": [1, 3, 3]}}
+    ]
+  },
+
+  "CheckBlockRegionCondition" : {
+    "checksToPerform": [
+      {"condition": "StructureTemplates:IsAirLike", "region" :{"min": [0, 1, 0], "size": [1, 3, 3]}}
+    ]
+  },
+
+  "parent" : "engine:iconItem",
+  "DisplayName" : {
+    "name" : "Spawn Wooden Wall"
+  },
+  "Item" : {
+    "icon" : "engine:items#whiteRecipe"
+  },
+
+  "SpawnStructureAction": {}
+}
