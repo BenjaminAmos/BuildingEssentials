@@ -3,7 +3,7 @@
     "version" : "0.1.0-SNAPSHOT",
     "author" : "",
     "displayName" : "BuildingEssentials",
-    "description" : "",
+    "description" : "A series of structure templates for Terasology designed for general building ",
     "dependencies" : [],
     "serverSideOnly" : false
 }
