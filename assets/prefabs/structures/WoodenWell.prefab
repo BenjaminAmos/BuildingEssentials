@@ -1,0 +1,80 @@
+{
+  "StructureTemplate" : {
+    "type": "BuildingEssentials:Well",
+    "front": "FRONT"
+  },
+
+  "SpawnBlockRegions": {
+    "regionsToFill": [
+      { "blockType": "core:Plank", "region": { "min": [2, 0, 0], "size": [2, 1, 1]}},
+      { "blockType": "core:Plank", "region": { "min": [1, 0, 1], "size": [4, 2, 1]}},
+      { "blockType": "core:Plank", "region": { "min": [1, 2, 1], "size": [1, 2, 1]}},
+      { "blockType": "core:Plank", "region": { "min": [2, 4, 1], "size": [2, 1, 4]}},
+      { "blockType": "core:Plank", "region": { "min": [4, 2, 1], "size": [1, 2, 1]}},
+      { "blockType": "core:Plank", "region": { "min": [0, 0, 2], "size": [2, 1, 2]}},
+      { "blockType": "core:Plank", "region": { "min": [1, 1, 2], "size": [1, 1, 2]}},
+      { "blockType": "core:Plank", "region": { "min": [4, 0, 2], "size": [2, 1, 2]}},
+      { "blockType": "core:Plank", "region": { "min": [4, 1, 2], "size": [1, 1, 2]}},
+      { "blockType": "core:Plank", "region": { "min": [1, 0, 4], "size": [4, 2, 1]}},
+      { "blockType": "core:Plank", "region": { "min": [1, 2, 4], "size": [1, 2, 1]}},
+      { "blockType": "core:Plank", "region": { "min": [4, 2, 4], "size": [1, 2, 1]}},
+      { "blockType": "core:Plank", "region": { "min": [2, 0, 5], "size": [2, 1, 1]}},
+      { "blockType": "core:TallGrass3", "region": { "min": [1, 0, 5], "size": [1, 1, 1]}},
+      { "blockType": "core:Torch.BACK", "region": { "min": [1, 2, 5], "size": [1, 1, 1]}},
+      { "blockType": "core:Torch.BACK", "region": { "min": [4, 2, 5], "size": [1, 1, 1]}},
+      { "blockType": "core:Torch.FRONT", "region": { "min": [1, 2, 0], "size": [1, 1, 1]}},
+      { "blockType": "core:Torch.FRONT", "region": { "min": [4, 2, 0], "size": [1, 1, 1]}},
+      { "blockType": "core:Torch.LEFT", "region": { "min": [0, 2, 1], "size": [1, 1, 1]}},
+      { "blockType": "core:Torch.LEFT", "region": { "min": [0, 2, 3], "size": [1, 1, 1]}},
+      { "blockType": "core:Torch.RIGHT", "region": { "min": [5, 2, 1], "size": [1, 1, 1]}},
+      { "blockType": "core:Torch.RIGHT", "region": { "min": [5, 2, 3], "size": [1, 1, 1]}},
+      { "blockType": "core:water", "region": { "min": [2, 0, 2], "size": [2, 2, 2]}},
+      { "blockType": "engine:air", "region": { "min": [0, 0, 0], "size": [2, 1, 1]}},
+      { "blockType": "engine:air", "region": { "min": [0, 1, 0], "size": [6, 1, 1]}},
+      { "blockType": "engine:air", "region": { "min": [0, 2, 0], "size": [1, 1, 1]}},
+      { "blockType": "engine:air", "region": { "min": [0, 3, 0], "size": [6, 2, 1]}},
+      { "blockType": "engine:air", "region": { "min": [2, 2, 0], "size": [2, 1, 1]}},
+      { "blockType": "engine:air", "region": { "min": [4, 0, 0], "size": [2, 1, 1]}},
+      { "blockType": "engine:air", "region": { "min": [5, 2, 0], "size": [1, 1, 1]}},
+      { "blockType": "engine:air", "region": { "min": [0, 0, 1], "size": [1, 2, 1]}},
+      { "blockType": "engine:air", "region": { "min": [0, 3, 1], "size": [1, 1, 1]}},
+      { "blockType": "engine:air", "region": { "min": [0, 4, 1], "size": [2, 1, 4]}},
+      { "blockType": "engine:air", "region": { "min": [2, 2, 1], "size": [2, 2, 1]}},
+      { "blockType": "engine:air", "region": { "min": [4, 4, 1], "size": [2, 1, 4]}},
+      { "blockType": "engine:air", "region": { "min": [5, 0, 1], "size": [1, 2, 1]}},
+      { "blockType": "engine:air", "region": { "min": [5, 3, 1], "size": [1, 1, 1]}},
+      { "blockType": "engine:air", "region": { "min": [0, 1, 2], "size": [1, 1, 2]}},
+      { "blockType": "engine:air", "region": { "min": [0, 2, 2], "size": [6, 2, 2]}},
+      { "blockType": "engine:air", "region": { "min": [5, 1, 2], "size": [1, 1, 2]}},
+      { "blockType": "engine:air", "region": { "min": [0, 0, 3], "size": [1, 2, 1]}},
+      { "blockType": "engine:air", "region": { "min": [0, 3, 3], "size": [1, 1, 1]}},
+      { "blockType": "engine:air", "region": { "min": [2, 2, 3], "size": [2, 2, 1]}},
+      { "blockType": "engine:air", "region": { "min": [5, 0, 3], "size": [1, 2, 1]}},
+      { "blockType": "engine:air", "region": { "min": [5, 3, 3], "size": [1, 1, 1]}},
+      { "blockType": "engine:air", "region": { "min": [0, 0, 5], "size": [1, 1, 1]}},
+      { "blockType": "engine:air", "region": { "min": [0, 1, 5], "size": [6, 1, 1]}},
+      { "blockType": "engine:air", "region": { "min": [0, 2, 5], "size": [1, 1, 1]}},
+      { "blockType": "engine:air", "region": { "min": [0, 40, 5], "size": [6, 2, 1]}},
+      { "blockType": "engine:air", "region": { "min": [2, 2, 5], "size": [2, 1, 1]}},
+      { "blockType": "engine:air", "region": { "min": [4, 0, 5], "size": [2, 1, 1]}},
+      { "blockType": "engine:air", "region": { "min": [5, 2, 5], "size": [1, 1, 1]}}
+    ]
+  },
+
+  "CheckBlockRegionCondition" : {
+    "checksToPerform": [
+      {"condition": "StructureTemplates:IsGroundLike", "region" :{"min": [0, -1, 0], "size": [6, 1, 6]}}
+    ]
+  },
+
+  /* For debugging purposes it is an item: */
+  "parent" : "engine:iconItem",
+  "DisplayName" : {
+    "name" : "Spawn Wooden Well"
+  },
+  "Item" : {
+    "icon" : "engine:items#whiteRecipe"
+  },
+
+  "SpawnStructureAction": {}
+}

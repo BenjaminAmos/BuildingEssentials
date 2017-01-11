@@ -1,0 +1,9 @@
+{
+    "id" : "BuildingEssentials",
+    "version" : "0.1.0-SNAPSHOT",
+    "author" : "",
+    "displayName" : "BuildingEssentials",
+    "description" : "",
+    "dependencies" : [],
+    "serverSideOnly" : false
+}

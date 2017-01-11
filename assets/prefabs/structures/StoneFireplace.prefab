@@ -1,0 +1,34 @@
+{
+  "StructureTemplate" : {
+    "type": "BuildingEssentials:Fireplace",
+    "front": "FRONT"
+  },
+
+  "SpawnBlockRegions": {
+    "regionsToFill": [
+      { "blockType": "core:lava", "region": { "min": [1, 0, 0], "size": [1, 1, 1]}},
+      { "blockType": "core:stone", "region": { "min": [0, 0, 0], "size": [1, 2, 1]}},
+      { "blockType": "core:stone", "region": { "min": [0, 2, 0], "size": [3, 1, 1]}},
+      { "blockType": "core:stone", "region": { "min": [2, 0, 0], "size": [1, 2, 1]}},
+      { "blockType": "core:stone", "region": { "min": [0, 0, 1], "size": [3, 3, 1]}},
+      { "blockType": "engine:air", "region": { "min": [1, 1, 0], "size": [1, 1, 1]}}
+    ]
+  },
+
+  "CheckBlockRegionCondition" : {
+    "checksToPerform": [
+      {"condition": "StructureTemplates:IsGroundLike", "region" :{"min": [0, -1, 0], "size": [3, 2, 2]}}
+    ]
+  },
+
+  /* For debugging purposes it is an item: */
+  "parent" : "engine:iconItem",
+  "DisplayName" : {
+    "name" : "Spawn Fireplace"
+  },
+  "Item" : {
+    "icon" : "engine:items#whiteRecipe"
+  },
+
+  "SpawnStructureAction": {}
+}
