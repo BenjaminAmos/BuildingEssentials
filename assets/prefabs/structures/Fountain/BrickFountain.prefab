@@ -1,0 +1,41 @@
+{
+  "StructureTemplate" : {
+    "type": "BuildingEssentials:Fountain",
+    "front": "FRONT"
+  },
+
+  "SpawnBlockRegions": {
+    "regionsToFill": [
+      { "blockType": "core:Brick", "region": { "min": [0, 0, 0], "size": [7, 1, 1]}},
+      { "blockType": "core:Brick", "region": { "min": [0, 0, 1], "size": [1, 1, 4]}},
+      { "blockType": "core:Brick", "region": { "min": [6, 0, 1], "size": [1, 1, 4]}},
+      { "blockType": "core:Brick", "region": { "min": [2, 0, 2], "size": [3, 1, 2]}},
+      { "blockType": "core:Brick", "region": { "min": [3, 1, 2], "size": [1, 2, 2]}},
+      { "blockType": "core:Brick", "region": { "min": [0, 0, 5], "size": [7, 1, 1]}},
+      { "blockType": "core:water", "region": { "min": [1, 0, 1], "size": [5, 1, 1]}},
+      { "blockType": "core:water", "region": { "min": [1, 0, 2], "size": [1, 1, 2]}},
+      { "blockType": "core:water", "region": { "min": [5, 0, 2], "size": [1, 1, 2]}},
+      { "blockType": "core:water", "region": { "min": [1, 0, 4], "size": [5, 1, 1]}},
+      { "blockType": "engine:air", "region": { "min": [0, 1, 0], "size": [7, 2, 2]}},
+      { "blockType": "engine:air", "region": { "min": [0, 1, 2], "size": [3, 2, 2]}},
+      { "blockType": "engine:air", "region": { "min": [4, 1, 2], "size": [3, 2, 2]}},
+      { "blockType": "engine:air", "region": { "min": [0, 1, 4], "size": [7, 2, 2]}}
+    ]
+  },
+
+  "CheckBlockRegionCondition" : {
+    "checksToPerform": [
+      {"condition": "StructureTemplates:IsAirLike", "region" :{"min": [0, 1, 0], "size": [7, 3, 6]}}
+    ]
+  },
+
+  "parent" : "engine:iconItem",
+  "DisplayName" : {
+    "name" : "Spawn Brick Fountain"
+  },
+  "Item" : {
+    "icon" : "engine:items#whiteRecipe"
+  },
+
+  "SpawnStructureAction": {}
+}

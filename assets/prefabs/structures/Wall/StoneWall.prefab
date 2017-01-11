@@ -1,6 +1,6 @@
 {
   "StructureTemplate" : {
-    "type": "BuildingEssentials:Window",
+    "type": "BuildingEssentials:Wall",
     "front": "FRONT"
   },
 
