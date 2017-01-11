@@ -6,19 +6,19 @@
 
   "SpawnBlockRegions": {
     "regionsToFill": [
-      { "blockType": "core:Stone", "region": { "min": [2, 0, 0], "size": [2, 1, 1]}},
-      { "blockType": "core:Stone", "region": { "min": [1, 0, 1], "size": [4, 2, 1]}},
-      { "blockType": "core:Stone", "region": { "min": [1, 2, 1], "size": [1, 2, 1]}},
-      { "blockType": "core:Stone", "region": { "min": [2, 4, 1], "size": [2, 1, 4]}},
-      { "blockType": "core:Stone", "region": { "min": [4, 2, 1], "size": [1, 2, 1]}},
-      { "blockType": "core:Stone", "region": { "min": [0, 0, 2], "size": [2, 1, 2]}},
-      { "blockType": "core:Stone", "region": { "min": [1, 1, 2], "size": [1, 1, 2]}},
-      { "blockType": "core:Stone", "region": { "min": [4, 0, 2], "size": [2, 1, 2]}},
-      { "blockType": "core:Stone", "region": { "min": [4, 1, 2], "size": [1, 1, 2]}},
-      { "blockType": "core:Stone", "region": { "min": [1, 0, 4], "size": [4, 2, 1]}},
-      { "blockType": "core:Stone", "region": { "min": [1, 2, 4], "size": [1, 2, 1]}},
-      { "blockType": "core:Stone", "region": { "min": [4, 2, 4], "size": [1, 2, 1]}},
-      { "blockType": "core:Stone", "region": { "min": [2, 0, 5], "size": [2, 1, 1]}},
+      { "blockType": "core:Brick", "region": { "min": [2, 0, 0], "size": [2, 1, 1]}},
+      { "blockType": "core:Brick", "region": { "min": [1, 0, 1], "size": [4, 2, 1]}},
+      { "blockType": "core:Brick", "region": { "min": [1, 2, 1], "size": [1, 2, 1]}},
+      { "blockType": "core:Brick", "region": { "min": [2, 4, 1], "size": [2, 1, 4]}},
+      { "blockType": "core:Brick", "region": { "min": [4, 2, 1], "size": [1, 2, 1]}},
+      { "blockType": "core:Brick", "region": { "min": [0, 0, 2], "size": [2, 1, 2]}},
+      { "blockType": "core:Brick", "region": { "min": [1, 1, 2], "size": [1, 1, 2]}},
+      { "blockType": "core:Brick", "region": { "min": [4, 0, 2], "size": [2, 1, 2]}},
+      { "blockType": "core:Brick", "region": { "min": [4, 1, 2], "size": [1, 1, 2]}},
+      { "blockType": "core:Brick", "region": { "min": [1, 0, 4], "size": [4, 2, 1]}},
+      { "blockType": "core:Brick", "region": { "min": [1, 2, 4], "size": [1, 2, 1]}},
+      { "blockType": "core:Brick", "region": { "min": [4, 2, 4], "size": [1, 2, 1]}},
+      { "blockType": "core:Brick", "region": { "min": [2, 0, 5], "size": [2, 1, 1]}},
       { "blockType": "core:TallGrass3", "region": { "min": [1, 0, 5], "size": [1, 1, 1]}},
       { "blockType": "core:Torch.BACK", "region": { "min": [1, 2, 5], "size": [1, 1, 1]}},
       { "blockType": "core:Torch.BACK", "region": { "min": [4, 2, 5], "size": [1, 1, 1]}},
@@ -69,7 +69,7 @@
 
   "parent" : "engine:iconItem",
   "DisplayName" : {
-    "name" : "Spawn Stone Well"
+    "name" : "Spawn Brick Well"
   },
   "Item" : {
     "icon" : "engine:items#whiteRecipe"
