@@ -21,7 +21,6 @@
     ]
   },
 
-  /* For debugging purposes it is an item: */
   "parent" : "engine:iconItem",
   "DisplayName" : {
     "name" : "Spawn Fireplace"

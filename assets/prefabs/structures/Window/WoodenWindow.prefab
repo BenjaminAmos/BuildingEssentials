@@ -1,0 +1,32 @@
+{
+  "StructureTemplate" : {
+    "type": "BuildingEssentials:Window",
+    "front": "FRONT"
+  },
+
+  "SpawnBlockRegions": {
+    "regionsToFill": [
+      { "blockType": "core:Glass", "region": { "min": [1, 2, 0], "size": [1, 1, 1]}},
+      { "blockType": "core:Plank", "region": { "min": [0, 1, 0], "size": [3, 1, 1]}},
+      { "blockType": "core:Plank", "region": { "min": [0, 2, 0], "size": [1, 1, 1]}},
+      { "blockType": "core:Plank", "region": { "min": [0, 3, 0], "size": [3, 1, 1]}},
+      { "blockType": "core:Plank", "region": { "min": [2, 2, 0], "size": [1, 1, 1]}}
+    ]
+  },
+
+  "CheckBlockRegionCondition" : {
+    "checksToPerform": [
+      {"condition": "StructureTemplates:IsAirLike", "region" :{"min": [0, 1, 0], "size": [3, 3, 1]}}
+    ]
+  },
+
+  "parent" : "engine:iconItem",
+  "DisplayName" : {
+    "name" : "Spawn Wooden Window"
+  },
+  "Item" : {
+    "icon" : "engine:items#whiteRecipe"
+  },
+
+  "SpawnStructureAction": {}
+}
